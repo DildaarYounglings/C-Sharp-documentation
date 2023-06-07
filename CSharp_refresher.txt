@@ -1,0 +1,41 @@
+______________________________________________________________________________________________________________________________________________________________________________________________________
+//this C# code bellow declares the function that starts our code
+
+  static void Main(string[] args)
+  {
+	Console.WriteLine("Hello World!");    
+  }
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+
+//this C# code bellow declares comments
+  //This is a single-line comment
+  /*This is a multi-line comment */
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+
+//this C# code bellow declares variables using the variable type before the variable name
+  int myInt = 9;
+  double myDouble = 8.99;
+  string myString = "hh";
+  char myLetter = 'd';//is just any single character that can be type and uses single quotes to surround the value//
+  bool myBoolean = true; //are true or false as a value to the variable//
+  var myVar = 's';//the variable type of 'var' will be determined by C#//
+______________________________________________________________________________________________________________________________________________________________________________________________________
+//this C# code bellow declares Type Casting or Type Converting
+  variableName.ToString();
+  variableName.ToInt32();
+______________________________________________________________________________________________________________________________________________________________________________________________________
+//this C# code bellow declares user input in Console app
+  Console.ReadLine();//can be used with a variable to make dynamic strings, this function always returns a string//
+______________________________________________________________________________________________________________________________________________________________________________________________________
+
+//this C# code bellow declares math. there is more Math methods than what is declared here. the variables here aren't defined and are just examples
+  Math.Max( x , y )//prints the highest value of the 2 variables//
+  Math.Sqrt(64)//returns the square root of variable//
+  Math.Round(2.6)//returns the number rounded off to nearest integer//
+______________________________________________________________________________________________________________________________________________________________________________________________________
+
+//string interpolation or template string.
+  string name = $"my Name is {firstName} {secondName}"
+// to access the the characters in a string use
+  string name = "ddddddd";
+  name[0]
