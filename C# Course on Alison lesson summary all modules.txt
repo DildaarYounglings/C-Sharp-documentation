@@ -1,0 +1,173 @@
+Lesson Summary module 1
+________________________
+	- C# employs an advanced garbage collector which means no more worrying about nasty memory leaks, it is a relatively terse language that means no writing long strings of code to
+	  accomplish trivial tasks.
+
+	- One of the popular uses of C# is in developing games using unity and mobile app development with Xamarin.
+
+	- Another popular use of C# is for cross-app development using mono and also for native windows app development with the Windows presentation foundation known as WPF.
+
+	- The Net framework provides two components; a runtime environment and a class library shared between all.
+
+	- NET applications. These two components are identified as the common language runtime and the framework class library respectively.
+
+	- The FCL is a huge library of classes, interfaces, and value types provided to any language utilizing the .NET framework. It defines features ranging from threading to web services.
+
+	- The solution explorer allows the easy addition and removal of files in the program and it also allows a quick preview of the program from the outermost level.
+
+	- The error window in the visual studio code displays any error in the program while the output window displays anything pertaining to the program.
+
+__________________________________________________________________________________________________________________________________________________________________________________________________
+Lesson Summary module 2
+_______________________
+
+	- The first category of data type in C# is known as the value type, and it typically represents a basic type such as integer, Boolean, or character and is stored in memory as a raw
+          value.
+
+	- Structs are also value types unique to C#. by defining our own structs we are able to easily expand the set of values types in C#.
+
+	- A reference type typically represents more complex types with rich functionality. The most fundamental of this is a C# class and it is typically stored in memory as an address.
+
+	- The decimal type is the most precise and mostly used when working with financial applications, they are not often used because they are slow. Whenever you are initializing a decimal,                   	  you need to follow it with the letter m.
+
+	- A jagged array uses two brackets and they allow you to store arrays with unknown values while a multi-dimensional array uses a coma and values must always be specified.
+
+	- An expression is a sequence of operators and operands that specifies a computation and produces at least one value that may or not be used while an operator is a character that 	 	  represents an action.
+
+	- Statements are program instructions that execute in sequence, they do not return results in themselves but instead, modify the program state in some way.
+
+	- An expression statement evaluates an expression either by assigning its result to a variable or by modifying the program state in some ways and ending in a semi-colon.
+__________________________________________________________________________________________________________________________________________________________________________________________________
+Lesson Summary module 3
+________________________
+
+	- Namespaces are a tool in C# that allows us to organize our files and codes much better and it is defaulted to whatever you name your application.
+
+	- Classes and structs combine data, functions, and nested types into a new type, the body of a class or struct is mainly comprised of fields and methods.
+
+	- Because classes are reference types, we must initialize them using the new keyword while structs can be initialized without the new keyword.
+
+	- Classes support inheritance from a single base class while structs do not support inheritance because they are value types.
+
+	- Classes support destructors and parameterless constructors while structs do not support destructors, and only support parameterless constructors if all fields are assigned.
+
+	- A constant is a way of creating data that never changes once the value is assigned, they are created with the keyword “const”, and they can be accessed using the class name first.
+
+	- A property is a member that provides a flexible mechanism to rewrite or compute the value of a private field.
+
+	- Indexers provide a natural way to index elements in a class or struct in C#, and they resemble properties quite a bit.
+__________________________________________________________________________________________________________________________________________________________________________________________________
+Lesson Summary module 4 first questionaire Assesment review
+____________________________________________________________
+1	True or False -- Common language runtime(CLR) is a small library of classes, interfaces, and value types provided to any only C#
+	Answer = False
+_____________________________________________________________________________________________________________________________________________
+2	Select the correct answer for each definition from the drop-down options.
+	Empty statements.
+		Does nothing. It is used as a placeholder when no operations need to be performed but a statement is required.
+
+	Declaration statements.
+		Declares a new variable which can optionally be initialized at the time of declaration by assigning an expression to it.
+
+	Selection statements.
+		Select one of a number of possible statements for execution based on the value of some expression.
+______________________________________________________________________________________________________________________________________________
+3	Which of the following statements are true? Choose two answers.
+	JaggedArrays are stored horizontally in the memory => false
+		Multidimensional arrays are stored linearly in the memory. => true
+	JaggedArrays are stored vertically in the memory => false
+		JaggedArrays are twice faster when accessing data stored in memory => true
+______________________________________________________________________________________________________________________________________________
+4	Which of the following keyword is used to differentiate between the argument name and field name?
+a	This
+b	Exact
+c	Dual
+d	That
+Answer=>	4a => This
+_______________________________________________________________________________________________________________________________________________
+5	Which of the following aid in producing very legible code? Choose four answers.
+
+	Delegates <= true
+	Accessors <= true
+	Custom RAM
+	Indexers <= true
+	Optical SDRAM
+	Events
+
+_______________________________________________________________________________________________________________________________________________
+6
+_______________________________________________________________________________________________________________________________________________
+
+Lesson Summary module 5
+__________________________
+	- Access modifiers are ways to keep everything in their own separate boxes in object-oriented programming languages.
+
+	- There are five access modifiers which include public modifiers, private, internal, and protected internal modifiers.
+
+	- There are two types of conversions that occur when converting classes in C#, the first one is called an upcast while the second type is downcast.
+
+	- The problem with the downcast conversion in C# is that it often fails, it throws a specific type of exception called the invalid cast exception: unable to cast object of type.
+
+	- Polymorphism is the ability to perform the same operation on many types as long as each type shares a common subset of characteristics, one common characteristic is that a class or
+	  bunch of classes all share the base class.
+
+	- An abstract class in C# is essentially a class that is used to represent an abstract concept in our programs, and it is also something that is not exactly a tangible object.
+
+	- An interface provides a specification rather than an implementation for its members. Classes and structs implement interfaces in order to enforce that certain members be implemented.
+
+	- In order to implement an interface in a class or struct, we extend from it just like we would extend from a class.
+__________________________________________________________________________________________________________________________________________________________________________________________________
+Lesson Summary module 6
+__________________________
+	- A delegate is a type that defines a method signature so delegate instances can hold and invoke a method or list of methods that matches its signature.
+
+	- Delegates are created inside a class and it is created using the delegate keyword, and then define as a method signature.
+
+	- Multicast delegates are the ones that can hold and invoke multiple methods, any of the delegates can be a multicast delegate by simply using the plus and equal operator.
+
+	- An event is a special kind of multicast delegate that can only be invoked from within the class that it is declared in.
+
+	- Exceptions are objects that contain information representing the occurrence of an exceptional program state. It occurs when something out of the ordinary happens in our program,
+	  like an error.
+
+	- A stack trace is a key property of an exception and it is a string representing all the methods called from the origin of the exception to the catch block.
+
+	- We use the try, catch, and finally statements to handle exceptions in C#, exceptions can be created by inheriting from the system Exception class.
+
+	- Already created exceptions can be thrown to notify others that a problem has occurred using the throw keyword.
+________________________________________________________________________________________________________________________________________________________________________________
+Lesson Summary module 7
+__________________________
+	- Attributes are pieces of information provided in our codes to help developers when modifying the codes. Attribute serializable is only valid on class, struct, enum, 	 	  delegate, and declarations. Just to mention a few.
+
+	- The three ways to comment in C# are; the single line method, the multiline method, and the XML method.
+
+	- When implementing a pageable interface in C#, an input source for the page must be created as well as an output source for the page.
+
+	- The notebook class helps achieve three major things which are; showing the pages in the notebook, creating new pages such as textual messages,s and also deleting the 	  pages created.
+
+	- Dictionaries in C# are more like HashMap in other languages and it allows you to associate some keys with some values.
+
+	- The steps involved in creating a constructor in a class are; specifying the access modifier and specifying the name of the class.
+
+	- The way to fix the key not found exception is by using the try and catch statement, this will prevent the program from blowing up.
+________________________________________________________________________________________________________________________________________________________________________________
+Lesson Summary module 8
+________________________________
+	- The first step towards defining our input method is to write a line of text to users, followed by a line feed into the auto variables.
+
+	- Unlike message lists, we can’t use empty lines to tell the program that the image is finished because a user wants to use an empty line to end their image. Control+D 	  is used instead to replace the empty line.
+
+	- The finished image keyword is just going to say whether the image is finished or not.
+
+	- The constructor for the notebook class takes just one parameter which is the notebook to be passed in to attract notebooks.
+
+	- Fields, parameters, and arguments with the same can be differentiated by using the “this” keyword. This.trackednotebook = tracknotebook;
+
+	- Attach methods attach the events to the event handler while the detach method detaches the event from the event handler.
+________________________________________________________________________________________________________________________________________________________________________________
+additional C# reasources
+__________________
+
+	- microsoft C# docs, stackoverflow, tutorialspoint.com/csharp/, dotnetperls.com, codeproject.com,
+
